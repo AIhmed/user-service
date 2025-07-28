@@ -1,0 +1,5 @@
+DB_URI: "postgres://user:password@hostname:5432/users?sslmode=disable"
+JWT_SECRET: "your-very-secure-secret-key-123"
+JWT_TTL: "24h"  # 24 hours
+HTTP_PORT: "8080"
+GRPC_PORT: "50051"

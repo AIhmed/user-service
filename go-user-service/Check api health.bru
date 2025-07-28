@@ -1,0 +1,15 @@
+meta {
+  name: Check api health
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{localUrl}}/health
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
